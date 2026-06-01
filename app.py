@@ -26,4 +26,4 @@ elif module == "Dashboard":
 
 elif module == "Invoice Generation":
 
-    st.write("Invoice Module Coming Soon")
+    from modules.invoice_generation.invoice_generator import *
