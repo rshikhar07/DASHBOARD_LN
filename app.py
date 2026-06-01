@@ -7,22 +7,35 @@ st.set_page_config(
 
 st.title("Loan Network Dashboard")
 
-module = st.sidebar.selectbox(
-    "Select Module",
+st.sidebar.title("Loan Network")
+
+module = st.sidebar.radio(
+
+    "",
+
     [
-        "Mail Automation",
-        "Dashboard",
-        "Invoice Generation"
+
+        "All Leads",
+
+        "Billing",
+
+        "Collection",
+
+        "Overview",
+
+        "Mail Automation"
+
     ]
+
 )
 
 if module == "Mail Automation":
 
     from modules.mail_automation.mail import *
 
-elif module == "Dashboard":
+elif module == "All Leads":
 
-    st.write("Dashboard Module Coming Soon")
+    from modules.dashboard.dashboard import *
 
 elif module == "Invoice Generation":
 
