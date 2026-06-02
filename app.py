@@ -37,6 +37,14 @@ elif module == "All Leads":
 
     from modules.dashboard.dashboard import *
 
-elif module == "Invoice Generation":
+elif module=="Billing":
 
-    st.write("Invoice Module Coming Soon")
+    from modules.dashboard.billing import *
+
+elif module=="Collection":
+
+    from modules.dashboard.collection import *
+
+elif module=="Overview":
+
+    from modules.dashboard.overview import *
