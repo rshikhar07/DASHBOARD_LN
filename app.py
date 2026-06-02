@@ -37,14 +37,14 @@ elif module == "All Leads":
 
     from modules.dashboard.dashboard import *
 
-elif module=="Billing":
+elif module == "Billing":
 
     from modules.dashboard.billing import *
 
-elif module=="Collection":
+elif module == "Collection":
 
     from modules.dashboard.collection import *
 
-elif module=="Overview":
+elif module == "Overview":
 
     from modules.dashboard.overview import *

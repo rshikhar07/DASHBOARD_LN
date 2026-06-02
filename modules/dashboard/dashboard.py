@@ -219,15 +219,3 @@ use_container_width=True,
 hide_index=True
 
 )
-
-st.dataframe(
-
-    filtered[
-        display_columns
-    ],
-
-    use_container_width=True,
-
-    hide_index=True
-
-)

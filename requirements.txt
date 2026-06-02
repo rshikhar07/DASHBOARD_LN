@@ -2,3 +2,6 @@ streamlit
 pandas
 sqlalchemy
 psycopg2-binary
+python-dotenv
+python-docx
+pyhanko
